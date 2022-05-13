@@ -1,0 +1,23 @@
+.container {
+  margin: 10px;
+}
+
+.p {
+  border-bottom: 2px solid var(--text-color);
+  padding: 10px;
+}
+
+.delete {
+  background-color: transparent;
+  outline: none;
+  border: 2px solid rgb(129, 26, 61);
+  color: rgb(129, 26, 61);
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.delete:hover {
+  color: var(--background-color);
+  background-color: rgb(129, 26, 61);
+}

@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1em;
+  transition: all 0.3s ease-in-out;
+}
+
+.input:focus {
+  border-bottom: 2px solid var(--text-color);
+  border-left: 2px solid var(--text-color);
+}
+
+.submit {
+  border: none;
+  color: #000;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid var(--text-color);
+  padding: 10px;
+}
+
+.submit:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
